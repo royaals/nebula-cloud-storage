@@ -1,0 +1,52 @@
+body {
+  background-color: #191919;
+  
+  /* This will change the color of the text */
+  color: #ffffff;
+  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  display: grid;
+  grid-template-columns: 300px auto ;
+
+}
+
+/* Chrome, Safari */
+::-webkit-progress-value {
+  background: #ffffff;
+}
+
+/* Firefox */
+progress::-moz-progress-bar { 
+  background: #ffffff;
+}
+
+/* IE10 */
+.progress {
+  color: #ffffff;
+}
+
+.progress-bar{
+  
+  height: 1px;
+  border-radius: 20px;
+}
+
+.progress_bar progress {
+  margin: 8px;
+  margin-left: 2px;
+  height: 5px;
+  border-radius: 55px;
+}
