@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone 
+   git clone https://github.com/royaals/nebula-cloud-storage.git
    ```
    
 2. Navigate into the project directory:
